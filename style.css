@@ -5,15 +5,29 @@
 }
 
 body {
+  background-color: #dfd3c3;
   font-family: "Roboto" sans-serif;
   margin: 0;
   height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
-.picture {
-  border: 1px solid #000;
+.btn {
+  background: #c7b198;
+  color: #000;
+  margin: 10px;
+  padding: 10px 15px;
+  border: 1px solid #596e79;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.95;
+  transform: scale(0.95);
 }
